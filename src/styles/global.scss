@@ -1,0 +1,332 @@
+@import "./theme.scss";
+
+page {
+  overflow-y: scroll;
+	-webkit-overflow-scrolling: touch; //ios滑动不流畅
+	background: #f5f5f5;
+	height: 100%;
+	font-size: 28rpx;
+	font-family: PingFangSC-Regular;
+	color: #333;
+}
+
+View,
+Scroll-View,
+Swiper,
+Movable-View,
+Icon,
+Text,
+Progress,
+Button,
+Checkbox,
+Form,
+Input,
+Label,
+Picker,
+Picker-View,
+Radio,
+Slider,
+Switch,
+TextArea,
+Navigator,
+Audio,
+Image,
+Video,
+Map,
+Canvas,
+Contact-Button
+{
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar{display:none}
+
+.u-fixed{
+	position: fixed;
+}
+
+.w-100 {
+	width: 100% !important
+}
+
+.h-100 {
+	height: 100% !important
+}
+
+.h80{
+  height: 80rpx;
+}
+
+.l-h80{
+  line-height: 80rpx;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align:left;
+}
+
+.text-right{
+	text-align:right;
+}
+
+.posi-a {
+	position: absolute;
+	z-index: 1
+}
+
+.posi-r {
+	position: relative;
+	z-index: 1
+}
+
+.posi-s {
+	position: sticky;
+	z-index: 1
+}
+
+.posi-f {
+	position: fixed;
+	z-index: 1
+}
+
+.wei {
+	font-weight: 700
+}
+
+.nowei {
+	font-weight: 400
+}
+
+.wei4 {
+	font-weight: 400
+}
+
+.wei5 {
+	font-weight: 500
+}
+
+.wei6 {
+	font-weight: 600
+}
+
+.wei-bold{
+	font-weight: bold
+}
+
+.bs0 {
+	border-radius: 0
+}
+
+.bs5 {
+	border-radius: 5rpx;
+	overflow: hidden
+}
+
+.bs8{
+	border-radius: 8rpx;
+	overflow: hidden
+}
+
+.bs10 {
+	border-radius: 10rpx;
+	overflow: hidden
+}
+
+.bs15 {
+	border-radius: 15rpx;
+	overflow: hidden
+}
+
+.bs20 {
+	border-radius: 20rpx;
+	overflow: hidden
+}
+
+.bs24 {
+	border-radius: 24rpx;
+	overflow: hidden
+}
+
+.bs30 {
+	border-radius: 30rpx;
+	overflow: hidden
+}
+
+
+.bs60 {
+	border-radius: 60rpx;
+	overflow: hidden
+}
+
+.bs100 {
+	border-radius: 100rpx;
+	overflow: hidden
+}
+
+.bs2000 {
+	border-radius: 20rpx 20rpx 0 0;
+	overflow: hidden
+}
+
+.bs3000 {
+	border-radius: 30rpx 30rpx 0 0;
+	overflow: hidden
+}
+
+.bs0030 {
+	border-radius: 0 0 30rpx 30rpx;
+	overflow: hidden
+}
+
+.bstl30 {
+	border-top-left-radius: 30rpx
+}
+
+.bsbr30 {
+	border-bottom-right-radius: 30rpx
+}
+
+.bsf {
+	border-radius: 50%;
+	overflow: hidden
+}
+
+.bf {
+	background: #fff
+}
+
+.bfa {
+	background: #fafafa
+}
+
+.bf5 {
+	background: #f5f5f5
+}
+
+.bf7 {
+	background: #f7f7f7
+}
+
+.bec {
+	background-color: #ececec
+}
+
+.bfc {
+	background: #fafbfc
+}
+
+.be {
+	background: #eee
+}
+
+.bf6 {
+	background: #f6f6f6
+}
+
+.bf9 {
+	background: #f9f9f9
+}
+
+.bd6 {
+	background: #d6d6d6
+}
+
+.b3 {
+	background: #333
+}
+
+.bg0 {
+	background: #000
+}
+
+.b05 {
+	background-color: rgba(0,0,0,.5)
+}
+
+.bt {
+	background: transparent
+}
+
+.br {
+	background: red
+}
+
+.bf25 {
+	background: #ff0025
+}
+
+.bf8 {
+	background: #f83448
+}
+
+.bb {
+	background: #2d95ff
+}
+
+.bg {
+	background: #15c42d
+}
+
+.by {
+	background: #ffb71c
+}
+
+.be6 {
+	background: #eff3f6
+}
+
+.bf2 {
+	background: #ff5012
+}
+
+.bf2f {
+	background: #f2f2f2
+}
+
+.bg00 {
+	background-color: #07c160
+}
+
+.bgef {
+	background-color: #ef371f
+}
+
+.bgf0a {
+	background-color: #ff5b0a
+}
+
+.color-white{
+	color:white;
+}
+
+.cir-o-border {
+	border: none;
+	border-radius: 2.5rem;
+	box-shadow: 0 0 60rpx 0 rgba(43,86,112,.1);
+}
+
+.o-border{
+	border: 1px solid #e0e0e0;
+}
+
+.border-radius-10{
+  border-radius: 10rpx;
+}
+
+.fixed-bar {
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background: #fff;
+  width: 100vw;
+  z-index: 2;
+}
+
+.button-confirm{
+  background-color: $background-color !important;
+  color:white;
+}

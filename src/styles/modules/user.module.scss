@@ -1,0 +1,14 @@
+@import '@/styles/theme.scss';
+
+.header{
+  height: 400rpx;
+  background-color: $background-color;
+  .avatar{
+    width: 100rpx;
+    height: 100rpx;
+  }
+}
+
+.reset_password{
+  border-bottom:1px solid #e5e5e5 ;
+}

@@ -1,0 +1,19 @@
+@import '@/styles/theme.scss';
+
+/*地图*/
+.wrapper{
+  width:100%;
+  height:100%;
+}
+
+.map_dom{
+  width:100%;
+  height:100%;
+}
+
+/* 蓝牙配置 */
+.open_bluetooth{
+  width:80% !important;
+  
+  margin: 0 auto;
+}

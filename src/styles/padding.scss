@@ -1,0 +1,11 @@
+$i: 10;
+@while $i <= 50 {
+  .u-padding-0-#{$i},.u-p-0-#{$i} { padding: 0 1rpx * $i !important; } 
+	.u-padding-#{$i}-0,.u-p-#{$i}-0 {padding: 1rpx * $i 0 !important;}
+	.u-padding-#{$i},.u-p-#{$i} {padding:1rpx * $i !important;}
+	.u-padding-bottom-#{$i},.u-p-b-#{$i} {padding-bottom:1rpx * $i !important;}
+	.u-padding-top-#{$i},.u-p-t-#{$i} {padding-top:1rpx * $i !important;}
+	.u-padding-left-#{$i},.u-p-l-#{$i} {padding-left:1rpx * $i !important;}
+	.u-padding-right-#{$i},.u-p-r-#{$i} {padding-right:1rpx * $i !important;}
+	$i: $i + 10;
+} 

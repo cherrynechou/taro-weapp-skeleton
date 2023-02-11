@@ -1,0 +1,15 @@
+$i: 10;
+@while $i <= 50 {
+  .u-margin-0-#{$i},.u-m-0-#{$i} { margin: 0 1rpx * $i !important; }
+	.u-margin-#{$i}-0,.u-m-#{$i}-0 {margin: 1rpx * $i 0 !important;}
+	.u-margin-#{$i},.u-m-#{$i} {margin: 1rpx * $i !important;}
+	.u-margin-bottom-#{$i},.u-m-b-#{$i} {margin-bottom: 1rpx * $i !important;}
+	.u-margin-top-#{$i},.u-m-t-#{$i} {margin-top: 1rpx * $i !important;}
+	.u-margin-right-#{$i},.u-m-r-#{$i} {margin-right: 1rpx * $i !important;}
+	$i: $i + 10;
+}
+
+
+.u-m-t-200{
+  margin-top: 200rpx;
+}
