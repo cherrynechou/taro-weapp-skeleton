@@ -1,8 +1,6 @@
 export default {
   pages: [
-    "pages/auth/login",
-    "pages/equipment/index",
-    "pages/more/index",
+    "pages/auth/login"
   ],
   window: {
     backgroundTextStyle: "light",
